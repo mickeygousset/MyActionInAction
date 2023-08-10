@@ -1,6 +1,6 @@
 name: "mickeygousset's Action in Action"
 description: 'Greets someone and returns always 42.'
-Inputs:
+inputs:
   who-to-greet:  # id of input
     description: 'Who to greet'
     required: true
