@@ -10,7 +10,7 @@ jobs:
         
       - name: Run my own container action
         id: my-action
-        uses: mickeygousset/myactioninaction@main
+        uses: ./
         with:
           who-to-greet: '@wulfland'
       
